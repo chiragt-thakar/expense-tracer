@@ -24,8 +24,8 @@ passport.use('jwt', jwtStrategy);
 app.use('/v1', indexRouter);
 // app.use('/users', usersRouter);
 
-const finalErrorHandler = (error,req, res, next) =>{
-  res.send()
-}
+// const finalErrorHandler = (error,req, res, ) =>{
+//   res.send()
+// }
 
 module.exports = app;

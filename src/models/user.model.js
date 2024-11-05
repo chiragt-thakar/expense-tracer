@@ -15,6 +15,9 @@ const userSchema = new Schema({
     type: String,
     trim: true,
   },
+  phone: {
+    type: Number,
+  },
   password: {
     type: String,
   },
@@ -22,6 +25,7 @@ const userSchema = new Schema({
     type: Boolean,
     default: true,
   },
+  
   isDeleted: {
     type: Boolean,
     default: false,
